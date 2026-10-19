@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "owner": "torvalds",
+    "repo": "linux",
+    "url": "https://github.com/torvalds/linux",
+    "description": "Linux kernel source tree",
+    "language": "C",
+    "starred_at": "2026-10-10T12:34:56Z"
+  },
+  {
+    "id": 2,
+    "owner": "sindresorhus",
+    "repo": "awesome",
+    "url": "https://github.com/sindresorhus/awesome",
+    "description": "Curated list of awesome lists",
+    "language": "Markdown",
+    "starred_at": "2026-09-20T08:00:00Z"
+  },
+  {
+    "id": 3,
+    "owner": "okallevag",
+    "repo": "LearningGit",
+    "url": "https://github.com/okallevag/LearningGit",
+    "description": "My own Learning Git repo",
+    "language": "HTML",
+    "starred_at": "2026-10-19T09:00:00Z"
+  }
+]
