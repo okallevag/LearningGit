@@ -3,9 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Favoritter log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheet for starred repositories page -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <div class="container">
+      <h1>Stargazers log</h1>
+      <p>A log of the repositories I've starred.</p>
+
+      <div id="starred-status" aria-live="polite"></div>
+      <div id="starred-list">
+        <!-- The script.js will populate this with the starred repos from events.json -->
+      </div>
+    </div>
+
+    <!-- Script to fetch and render events.json -->
+    <script src="script.js"></script>
   </body>
 </html>
